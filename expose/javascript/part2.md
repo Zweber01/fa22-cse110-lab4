@@ -36,14 +36,14 @@
     h. NaN because a string - undefined isnt sure what it should subtract, therefore it throws NaN
 
 14. a. True because the string is taken as an int when being compared to an int
-    b. False because when strings are compared to each other the first digit is taken into consideration so 2 is higher than 12 because 2 is higher than 1.
-    c. True
-    d. False
-    e. False
-    f. True
+    b. False because when strings are compared to each other the first digit is taken into consideration so 2 is higher than  12 because 2 is higher than 1.
+    c. True because == ignores datatype and so looking at values both are 2 so it is true
+    d. False because it actually takes into account the datatypes meaning the int value of 2 is not the same as the string value 2
+    e. False because true is equivalent to 1, not 2 making it false
+    f. True because the === takes into consideration the datatypes so Boolean(2) is not zero making it true
 
-15.
+15. the == ignores datatype of the variables while the === takes the datatypes into consideration
 
-17.
+17. Result will be [1,2,3] because you first go to modifyArray function which makes a const newArr meaning the values cannot change within the array, so when the values are being pushed with the function of doSomething, the values actually aren't being multiplied by 2, it stays the same because of the const variable.
 
 19. 1 4 3 2
