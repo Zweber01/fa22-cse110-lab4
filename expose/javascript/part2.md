@@ -23,3 +23,10 @@
 12. a. student.name
     b. student[Grad Year]
     c. student.greeting()
+    d. student.greeting([Favorite Teacher].name)
+    e. student.courseLoad[0]
+    
+13. a. 5
+    b. 1
+    c. 3
+    
