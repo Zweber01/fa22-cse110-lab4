@@ -26,7 +26,24 @@
     d. student.greeting([Favorite Teacher].name)
     e. student.courseLoad[0]
     
-13. a. 5
-    b. 1
-    c. 3
-    
+13. a. 32 because 3 is a string so 2 will be treated as a string as well so the character of 2 will be added to the 3 making it 32
+    b. 1 because since it is a minus sign, the string and int will actually revert to int - int and give the answer of 1
+    c. 3 because null is ignored as a string when adding with an int since there will be nothing added
+    d. 3null because 3 is a string meaning null will be treated as a string and added as text.
+    e. 4 because when adding bools to ints, true is 1 while false is 0.
+    f. 0 because false is taken as a 0 and so is null when using operators with booleans
+    g. 3undefined because 3 is a string so the + operator makes undefined a string if the first one is also a string, like this 3
+    h. NaN because a string - undefined isnt sure what it should subtract, therefore it throws NaN
+
+14. a. True because the string is taken as an int when being compared to an int
+    b. False because when strings are compared to each other the first digit is taken into consideration so 2 is higher than 12 because 2 is higher than 1.
+    c. True
+    d. False
+    e. False
+    f. True
+
+15.
+
+17.
+
+19. 1 4 3 2
