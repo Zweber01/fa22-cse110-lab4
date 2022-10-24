@@ -44,6 +44,10 @@
 
 15. the == ignores datatype of the variables while the === takes the datatypes into consideration
 
+16. See js file
+
 17. Result will be [1,2,3] because you first go to modifyArray function which makes a const newArr meaning the values cannot change within the array, so when the values are being pushed with the function of doSomething, the values actually aren't being multiplied by 2, it stays the same because of the const variable.
+
+18. See js file
 
 19. 1 4 3 2
